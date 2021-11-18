@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    color: white;
+    background-image: url(./assets/bg1.png);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    background: o.5;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#know-button,
+#start-button,
+#play-again-button {
+    cursor: pointer;
+    color: white;
+}
+
+nav h1 {
+    color: rgb(156, 23, 255);
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header {
+    height: 100px;
+}
+
+#main-container {
+    height: 500px;
+}
+
+#purple {
+    color: rgb(156, 23, 255);
+    font-weight: bold;
+}
+
+#yellow {
+    color: rgb(255, 230, 64);
+}
+
+input {
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#start-button,
+#play-again-button,
+#home-button {
+    background-color: rgb(64, 210, 46);
+    width: 220px;
+    height: 60px;
+    border-radius: 30px;
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Info styling */
+#info-page,
+#tie-page,
+#win-page {
+    background-image: url(./assets/bg2.png);
+}
+
+#info-nav {
+    justify-content: flex-start;
+}
+
+nav img,
+#game-page img {
+    width: 100px;
+    height: 80px;
+}
+
+header #purple {
+    font-size: 72px;
+}
+
+#text-container-main {
+    display: flex;
+    justify-content: center;
+}
+
+#text-container {
+    width: 50%;
+    text-align: center;
+}
+
+li {
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#green {
+    color: #7ed957;
+}
+
+#red {
+    color: #ff1616;
+}
+
+#blue {
+    color: #5ce1e6;
+}
+
+/* Game Page */
+
+#game-page {
+    background-image: url(./assets/bg3.png);
+    /* background-color: white; */
+
+}
+
+#name-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-page h1 {
+    font-size: 60px;
+}
+
+#game-page footer {
+    width: 100vw;
+    position: absolute;
+    top: 700px;
+    text-align: center;
+
+}
+
+#game-page img {
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.justify-content-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.justify-content-space-evenly>img {
+    width: 200px;
+}
+
+#home-button {
+    color: yellow;
+    background-color: grey;
+}
+
+#win-page,
+#tie-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

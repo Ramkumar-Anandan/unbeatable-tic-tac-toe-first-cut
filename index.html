@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unbeatable Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div onclick="openInfo()" id="know-button">
+            <h1>?</h1>
+            <p>HOW DO I PLAY</p>
+        </div>
+    </nav>
+    <header>
+        <h2>WELCOME HUMAN!</h2>
+    </header>
+    <form method="get" action="game.html">
+        <div id="main-container">
+            <h3>ENTER YOUR NAME TO BE ELIGIBLE TO PLAY</h3>
+            <br><br>
+            <h3 id="purple">TIC <span id="yellow">TAC</span> TOE</h3>
+            <br>
+            <input placeholder="YOUR PLAYER NAME" type="text" name="name" id="player-name">
+        </div>
+        <footer>
+            <input type="submit" value="START" id="start-button">
+        </footer>
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
